@@ -1,0 +1,81 @@
+@font-face {
+    font-family: 'cyber'; 
+    src: url('ShareTech-Regular.ttf') format('opentype');
+}
+body {
+    margin: 50px 30px auto 30px;
+    background-color: #1F2937;
+    padding-bottom: 30px;
+    width: 446px;
+    font-family: cyber;
+}
+
+#top-title-el {
+    color: white;
+    margin: auto auto 0px 15px;
+    width: 354px;
+    font-size: 40px;
+}
+
+#bottom-title-el {
+    color: #4ADF86;
+    margin: 0px auto auto 15px;
+    width: 354px;
+    font-size: 40px;
+}
+
+#under-title-el {
+    color: #D5D4D8;
+    margin: 25px auto 30px 15px;
+    width: 354px;
+    font-size: 20px;
+}
+
+button {
+    color: white;
+    background-color: #10B981;
+    padding: 9px 15px;
+    border-radius: 8px;
+    border: none;
+    margin-left: 15px;
+    font-size: 16px;
+    font-family: cyber;
+}
+
+#password-el {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    border-top: solid 2px #2F3E53;
+    padding-top: 30px;
+    
+}
+
+#pass-one,
+#pass-two {
+    color: #55F991;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 211px;
+    height: 39px;
+    background-color: #273549;
+    margin: 10px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-family: cyber;
+}
+
+.popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    font-size: 16px;
+    font-family: cyber;
+    border-radius: 5px;
+    display: none; /*starts out hidden*/
+}
