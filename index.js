@@ -8,7 +8,7 @@ let passOne = document.getElementById("pass-one");
 let passTwo = document.getElementById("pass-two");
 
 // Password length
-let passwordLength = 12;
+let passwordLength = 15;
 
 // Function to get a random character from the characters array
 function getRandomCharacter() {
